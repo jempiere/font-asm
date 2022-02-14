@@ -1,0 +1,18 @@
+button#kill {
+	position: absolute;
+	font-size: 10pt;
+	right: 0; top: 0;
+	border: none;
+	outline: 1px solid white;
+	color: white;
+	background: black;
+	opacity: 25%;
+	transition: 0.25s;
+	border-bottom-left-radius: 5px;
+	padding: 0.5ch 1ch;
+}
+
+button#kill:hover {
+	opacity: 100%;
+	background: #444;
+}

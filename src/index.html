@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="src/style.css" type="text/css">
+	<title>Document</title>
+</head>
+<body>
+	<div id="bar">
+		<button id="kill">kill parent</button>
+		<button id="serve">start child</button>
+	</div>
+	<iframe id="iframe" src="http://localhost:2500" frameborder="0"></iframe>
+	<script src="node_modules/socket.io/client-dist/socket.io.js" charset="utf-8"></script>
+	<script src="src/script.mjs" type="module"></script>
+</body>
+</html>

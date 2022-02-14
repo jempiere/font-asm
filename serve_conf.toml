@@ -1,0 +1,23 @@
+# IF YOU DON'T KNOW WHAT YOU'RE DOING:
+# thanks for checking out these files!
+# you can change parent/child settings
+# here!! Ports and Host Directories :)
+# have fun, defaults are listed below!
+
+[parent]
+port = 3000
+dir  = "src/index.html"
+
+[child]
+port = 2500
+dir  = "rsc/index.html"
+
+# DEFAULTS (if y'all screwed it up)
+
+# [parent]
+# port = 3000
+# dir  = "src/index.html"
+
+# [child]
+# port = 2500
+# dir  = "rsc/index.html"
